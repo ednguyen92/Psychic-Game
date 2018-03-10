@@ -38,10 +38,6 @@ var guessesMade = [];
 		console.log("Wins: " + wins + " Losses: " + losses + " GuessesLeft: " + guessesLeft + " Guesses so far: " + guessesMade + " Computer picked: " + computerGuess);
     }
 
-    
-
-
-
 	// Displaying progress to HTML
     var html = "<p><h1>The Psychic Game</h1></p>" + 
     "<p><h4>Guess what letter I\'m thinking of</h4></p>" + 
