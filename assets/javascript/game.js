@@ -22,7 +22,7 @@ var guessesMade = [];
         wins++;
         console.log("You won!");
         guessesLeft = 9;
-		guessesSoFar = [];
+		guessesMade = [];
 		computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 		console.log("Wins: " + wins + " Losses: " + losses + " GuessesLeft: " + guessesLeft + " Guesses so far: " + guessesMade + " Computer picked: " + computerGuess);
 	} else  {
@@ -33,10 +33,12 @@ var guessesMade = [];
         losses++;
         console.log("You lost!");
         guessesLeft = 9;
-		guessesSoFar = [];
+		guessesMade = [];
 		computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 		console.log("Wins: " + wins + " Losses: " + losses + " GuessesLeft: " + guessesLeft + " Guesses so far: " + guessesMade + " Computer picked: " + computerGuess);
     }
+
+    
 
 
 
