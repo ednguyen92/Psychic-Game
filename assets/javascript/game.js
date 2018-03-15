@@ -13,6 +13,8 @@ var guessesMade = [];
     // This function is run whenever the user presses a key.
     document.onkeyup = function(event) {
 
+        var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
+
               if (userGuess === computerGuess) {
                     wins++;
                     console.log("You won!");
